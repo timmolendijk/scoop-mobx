@@ -1,0 +1,36 @@
+{
+  "name": "scoop-mobx",
+  "version": "0.1.0",
+  "description": "Scoop bindings for MobX observables",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timmolendijk/scoop-mobx.git"
+  },
+  "keywords": [
+    "redux",
+    "oop",
+    "mobx"
+  ],
+  "author": "Tim Molendijk <tim@timmolendijk.nl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timmolendijk/scoop-mobx/issues"
+  },
+  "homepage": "https://github.com/timmolendijk/scoop-mobx#readme",
+  "devDependencies": {
+    "typescript": "^2.1.5"
+  },
+  "peerDependencies": {
+    "redux-scoop": "timmolendijk/redux-scoop",
+    "mobx": "^3.0.0"
+  },
+  "dependencies": {
+    "recompose": "^0.22.0"
+  }
+}
